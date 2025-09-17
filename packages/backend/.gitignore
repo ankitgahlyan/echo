@@ -1,0 +1,42 @@
+# Backend package .gitignore — keep secrets, dependencies, build outputs and IDE files out of git
+
+# Environment files (do NOT commit secrets)
+.env
+.env.local
+.env.test
+.env.production
+.env.development
+.env.*
+.env.*.local
+.envrc
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Coverage and test output
+coverage/
+.nyc_output/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Operating system files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# TypeScript/build helpers
+*.tsbuildinfo
+
+# Add other generated artifacts here
+
